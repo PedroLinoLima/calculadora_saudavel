@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CALCULADORA SAUDÁVEL</string>
+
+    <string-array name="tipo_exercicio">
+        <item>Atividade Leve</item>
+        <item>Atividade Moderada</item>
+        <item>Atividade Intensa</item>
+    </string-array>
+
+</resources>

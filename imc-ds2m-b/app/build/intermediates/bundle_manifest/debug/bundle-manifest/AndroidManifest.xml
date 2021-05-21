@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.senai.sp.jandira.imc_app_b"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="27"
+        android:targetSdkVersion="30" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@drawable/peso"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/peso"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="br.senai.sp.jandira.imc_app_b.activity_resultado_ncd" />
+        <activity android:name="br.senai.sp.jandira.imc_app_b.NcdActivity" />
+        <activity android:name="br.senai.sp.jandira.imc_app_b.ResultadoImcActivity" />
+        <activity android:name="br.senai.sp.jandira.imc_app_b.ImcActivity" />
+        <activity android:name="br.senai.sp.jandira.imc_app_b.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
